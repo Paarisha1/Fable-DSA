@@ -1,0 +1,34 @@
+{
+  "users": [
+    { "id": 1, "name": "John Doe", "email": "john@example.com" },
+    { "id": 2, "name": "Jane Smith", "email": "jane@example.com" }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "userId": 1,
+      "description": "Logged in",
+      "timestamp": "2025-01-14T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "description": "Updated profile",
+      "timestamp": "2025-01-14T11:00:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 1,
+      "message": "New login from Chrome",
+      "timestamp": "2025-01-14T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "message": "Password changed successfully",
+      "timestamp": "2025-01-14T13:00:00Z"
+    }
+  ]
+}
